@@ -5,6 +5,27 @@ A Dapps (Decentralized Application) combines React, Web3, and Ethereum to create
 ## Project Architecture Diagram
 ![Alt text](image.png)
 
+## setup project structure 
+Follow setting up the Project structure in a sequence, setup a react project first followed by a 
+truffle project within the same directory
+1.  create-react-app react-ethereum
+2.  change to react-ethereum directory
+3.  truffle init -y
+4.  truffle create contract YourContractName # scaffold a contract
+5.  truffle create test YourTestName         # scaffold a test if in case you have test cases 
+6.  edit the truffle-config.js with the changes updated in the repository.  (it has changes related to the Goerli test network, an Ethereum network)
+7.  npm i web3
+8.  npm i @truffle/hdwallet-provider
+
+## `Infura Signup and MetaMask Wallet`
+This project will required a browser extension of MetaMask, which is a cryptocurrency wallet and allows you to manage your Ethereum accounts, sign transactions, and interact with smart contracts.
+
+To use Infura with Metamask, you can create an Infura account and obtain an API key or project ID. This ID acts as a credential to access the Infura service. You can then configure Metamask to connect to the Ethereum network via Infura by specifying the network URL provided by Infura, along with your API key or project ID.
+
+## Web3 and HDWalletProvider
+Web3 acts as the middleware bridge between the front-end application and the Ethereum blockchain. It allows the dApp to connect to an Ethereum node, send transactions, and retrieve information from the blockchain.
+
+HDWalletProvider is a provider for web3.js that allows you to connect to an Ethereum network using a mnemonic phrase or a JSON wallet file. It is commonly used in development environments or when deploying smart contracts to an Ethereum network.
 
 ### `npm start`
 
@@ -39,32 +60,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
