@@ -1,11 +1,11 @@
-# Full Stack Blockchain application with React, web3 and Ethereum 
+# `Full Stack Blockchain application with React, web3 and Ethereum` 
 
 A Dapps (Decentralized Application) combines React, Web3, and Ethereum to create a new breed of applications. React is used to build the user interface, Web3 connects the front end to the Ethereum blockchain, and Ethereum provides a secure and decentralized back-end platform. This tech stack enables developers to create applications with enhanced security, transparency, and user control, leveraging the power of blockchain technology. 
 
-## Project Architecture Diagram
+## `Project Architecture Diagram`
 ![Alt text](image.png)
 
-## setup project structure 
+## `setup project structure` 
 Follow setting up the Project structure in a sequence, setup a react project first followed by a 
 truffle project within the same directory
 1.  create-react-app react-ethereum
@@ -22,7 +22,7 @@ This project will required a browser extension of MetaMask, which is a cryptocur
 
 To use Infura with Metamask, you can create an Infura account and obtain an API key or project ID. This ID acts as a credential to access the Infura service. You can then configure Metamask to connect to the Ethereum network via Infura by specifying the network URL provided by Infura, along with your API key or project ID.
 
-## Web3 and HDWalletProvider
+## `Web3 and HDWalletProvider`
 Web3 acts as the middleware bridge between the front-end application and the Ethereum blockchain. It allows the dApp to connect to an Ethereum node, send transactions, and retrieve information from the blockchain.
 
 HDWalletProvider is a provider for web3.js that allows you to connect to an Ethereum network using a mnemonic phrase or a JSON wallet file. It is commonly used in development environments or when deploying smart contracts to an Ethereum network.
@@ -60,3 +60,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## `dApp output display`
+![Alt text](image-1.png)
