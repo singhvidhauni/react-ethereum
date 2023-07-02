@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Full Stack Blockchain application with React, web3 and Ethereum 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Dapps (Decentralized Application) combines React, Web3, and Ethereum to create a new breed of applications. React is used to build the user interface, Web3 connects the front end to the Ethereum blockchain, and Ethereum provides a secure and decentralized back-end platform. This tech stack enables developers to create applications with enhanced security, transparency, and user control, leveraging the power of blockchain technology. 
 
-## Available Scripts
+## Project Architecture Diagram
+![Alt text](image.png)
 
-In the project directory, you can run:
 
 ### `npm start`
 
