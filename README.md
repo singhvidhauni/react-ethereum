@@ -3,8 +3,7 @@
 A Dapps (Decentralized Application) combines React, Web3, and Ethereum to create a new breed of applications. React is used to build the user interface, Web3 connects the front end to the Ethereum blockchain, and Ethereum provides a secure and decentralized back-end platform. This tech stack enables developers to create applications with enhanced security, transparency, and user control, leveraging the power of blockchain technology. 
 
 ## `Project Architecture Diagram`
-![image-1](https://github.com/singhvidhauni/react-ethereum/assets/4363033/83f3e3a4-c8ce-4947-8afa-9c3ab7f2f85d)
-
+![image](https://github.com/singhvidhauni/react-ethereum/assets/4363033/a4fb98b2-f5ec-4144-8b81-fce01181c223)
 
 ## `setup project structure` 
 Follow setting up the Project structure in a sequence, setup a react project first followed by a 
