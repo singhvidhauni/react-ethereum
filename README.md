@@ -62,3 +62,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## `dApp output display`
 ![Alt text](image-1.png)
+
+## `dApp output while on goerli with Metamask`
+![React-Goerli-19-7-2023](https://github.com/singhvidhauni/react-ethereum/assets/4363033/b0d7fdc5-15a2-47bb-aec6-88f49d2a3422)
+
