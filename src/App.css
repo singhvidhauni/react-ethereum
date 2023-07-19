@@ -25,6 +25,10 @@
   font-size: calc(10px + 2vmin);
  
 }
+mark { 
+  background-color: rgb(251, 252, 188);
+  color: black;
+}
 .App-link {
   color: #61dafb;
 }
@@ -33,6 +37,34 @@ div button {
 }
 form input {
   margin:5px 0px;
+}
+.blink_style {
+  background: rgb(255, 255, 255);
+ }
+ .blink_style mark {
+  text-align: center;
+  font-family: Verdana;
+  color: #e60808;
+  animation: blink-text 1.9s linear infinite;
+  font-size: 1em;
+ }
+.amount-container input {
+  font-size:1.20em;
+  vertical-align:middle;
+}
+.amount-container button {
+  vertical-align: middle;
+}
+ @keyframes blink-text {
+  0% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+  }
+  100% {
+   opacity: 0;
+  }
 }
 @keyframes App-logo-spin {
   from {
